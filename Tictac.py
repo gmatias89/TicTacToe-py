@@ -9,7 +9,7 @@ Tablerosup=[]
 Tableromid=[]
 Tablerolow=[]
 #Comentario de prueba2.0
-
+#Agregue otro comentario nuevo
 def DibujarTablero(superficie):
     tercio = 800/3
     #Verticales

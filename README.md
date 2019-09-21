@@ -1,1 +1,1 @@
-Un juego con pygame sobre el clasico TaTeTi o Tictactoe en ingles, hecho en python
+Un juego con pygame sobre el clasico Tictactoe, hecho en python con pygame

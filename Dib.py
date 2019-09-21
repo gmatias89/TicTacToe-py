@@ -19,14 +19,24 @@ class Dib(pygame.sprite.Sprite):
 
         
         self.click=False
-        
+    
+    def chequear_click(self,evento,player):
+        if self.rect.collidepoint(evento):
+            self.clicked(player)
 
+
+    def getClick(self):
+        return self.click
+    
+    def getPlayer(self):
+        return self.player
+        
     def dibujar(self,superficie):
         self.imagenDibujo=self.listaImagenes[self.player]
         superficie.blit(self.imagenDibujo,self.rect)
     
     def clicked(self,jugador):
-        if click==False:
+        if self.click==False:
             self.click=True
             self.player=jugador
             self.imagenDibujo=self.listaImagenes[jugador]
